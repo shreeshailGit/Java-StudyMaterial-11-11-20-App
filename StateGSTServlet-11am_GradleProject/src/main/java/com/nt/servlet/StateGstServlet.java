@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 
 @WebServlet("/stateurl")
 public class StateGstServlet extends HttpServlet {
-
+        //get method
 	public  void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
        PrintWriter pw=null;
        float billAmt=0.0f;
