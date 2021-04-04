@@ -1,0 +1,50 @@
+2021-01-14 21:58:13.086  INFO 4248 --- [restartedMain] com.nt.Application                       : Starting Application using Java 14.0.2 on SARATE with PID 4248 (F:\WorkSpaces\Ashok\SpringBoot\04-User_Management-App_H2_DB\target\classes started by sarat in F:\WorkSpaces\Ashok\SpringBoot\04-User_Management-App_H2_DB)
+2021-01-14 21:58:13.093  INFO 4248 --- [restartedMain] com.nt.Application                       : No active profile set, falling back to default profiles: default
+2021-01-14 21:58:13.154  INFO 4248 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-14 21:58:13.154  INFO 4248 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-14 21:58:14.331  INFO 4248 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-14 21:58:14.393  INFO 4248 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 4 JPA repository interfaces.
+2021-01-14 21:58:14.878  INFO 4248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8585 (http)
+2021-01-14 21:58:14.884  INFO 4248 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-14 21:58:14.884  INFO 4248 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-14 21:58:15.202  INFO 4248 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-01-14 21:58:15.208  INFO 4248 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/User]   : Initializing Spring embedded WebApplicationContext
+2021-01-14 21:58:15.209  INFO 4248 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2053 ms
+2021-01-14 21:58:15.241  INFO 4248 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-14 21:58:15.335  INFO 4248 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-14 21:58:15.341  INFO 4248 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2021-01-14 21:58:15.469  INFO 4248 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-14 21:58:15.505  INFO 4248 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-14 21:58:15.590  INFO 4248 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-14 21:58:15.693  INFO 4248 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-01-14 21:58:16.109  INFO 4248 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-14 21:58:16.115  INFO 4248 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-14 21:58:16.139  INFO 4248 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-01-14 21:58:16.526  INFO 4248 --- [restartedMain] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2021-01-14 21:58:16.570  INFO 4248 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'clientInboundChannelExecutor'
+2021-01-14 21:58:16.573  INFO 4248 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'clientOutboundChannelExecutor'
+2021-01-14 21:58:16.579  INFO 4248 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'messageBrokerTaskScheduler'
+2021-01-14 21:58:16.616  INFO 4248 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'brokerChannelExecutor'
+2021-01-14 21:58:16.676  WARN 4248 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-14 21:58:16.930  INFO 4248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8585 (http) with context path '/User'
+2021-01-14 21:58:16.932  INFO 4248 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2021-01-14 21:58:16.932  INFO 4248 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@d944d1e]]
+2021-01-14 21:58:16.932  INFO 4248 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2021-01-14 21:58:16.940  INFO 4248 --- [restartedMain] com.nt.Application                       : Started Application in 4.248 seconds (JVM running for 5.194)
+2021-01-14 21:58:35.071  INFO 4248 --- [http-nio-8585-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/User]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-14 21:58:35.072  INFO 4248 --- [http-nio-8585-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-14 21:58:35.074  INFO 4248 --- [http-nio-8585-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-01-14 21:58:39.235  INFO 4248 --- [http-nio-8585-exec-4] com.nt.controller.UserController         : *** Registration Form Loaded Successfully *** 
+2021-01-14 21:58:56.785  INFO 4248 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-01-14 21:58:56.788  INFO 4248 --- [RMI TCP Connection(2)-127.0.0.1] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopping...
+2021-01-14 21:58:56.788  INFO 4248 --- [RMI TCP Connection(2)-127.0.0.1] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@d944d1e]]
+2021-01-14 21:58:56.788  INFO 4248 --- [RMI TCP Connection(2)-127.0.0.1] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopped.
+2021-01-14 21:58:56.827  INFO 4248 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'brokerChannelExecutor'
+2021-01-14 21:58:56.827  INFO 4248 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2021-01-14 21:58:56.828  INFO 4248 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2021-01-14 21:58:56.828  INFO 4248 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'clientInboundChannelExecutor'
+2021-01-14 21:58:56.828  INFO 4248 --- [RMI TCP Connection(2)-127.0.0.1] org.apache.tiles.access.TilesAccess      : Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2021-01-14 21:58:56.830  INFO 4248 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-14 21:58:57.046  WARN 4248 --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-01-14 21:58:57.046  INFO 4248 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-01-14 21:58:57.092  INFO 4248 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

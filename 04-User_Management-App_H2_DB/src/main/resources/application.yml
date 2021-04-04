@@ -1,0 +1,41 @@
+server:
+  port: 8585
+  servlet:
+    context-path: /User
+spring:
+  datasource:
+    driver-class-name:  org.h2.Driver
+    password: 
+    url: jdbc:h2:mem:testdb
+    username: sa
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+    hibernate:
+      ddl-auto: update
+     
+  mvc:
+    view:
+      prefix: /WEB-INF/pages/
+      suffix: .jsp
+     
+  main:
+    banner-mode: console
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: sarateshreeshail96@gmail.com
+    password: Shreeshail@8362D
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: true
+          auth: true
+                  
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration                 
+      
+

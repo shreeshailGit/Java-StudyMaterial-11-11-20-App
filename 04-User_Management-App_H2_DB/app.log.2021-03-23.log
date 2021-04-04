@@ -1,0 +1,159 @@
+2021-03-23 06:56:16.573  INFO 51384 --- [restartedMain] com.nt.Application                       : Starting Application using Java 14.0.2 on SARATE with PID 51384 (F:\WorkSpaces\Ashok\SpringBoot\04-User_Management-App_H2_DB\target\classes started by sarat in F:\WorkSpaces\Ashok\SpringBoot\04-User_Management-App_H2_DB)
+2021-03-23 06:56:16.588  INFO 51384 --- [restartedMain] com.nt.Application                       : No active profile set, falling back to default profiles: default
+2021-03-23 06:56:16.643  INFO 51384 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-23 06:56:16.643  INFO 51384 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-23 06:56:17.531  INFO 51384 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-23 06:56:17.615  INFO 51384 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76 ms. Found 4 JPA repository interfaces.
+2021-03-23 06:56:18.339  INFO 51384 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8585 (http)
+2021-03-23 06:56:18.348  INFO 51384 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-23 06:56:18.349  INFO 51384 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-23 06:56:18.838  INFO 51384 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-03-23 06:56:18.848  INFO 51384 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/User]   : Initializing Spring embedded WebApplicationContext
+2021-03-23 06:56:18.850  INFO 51384 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2195 ms
+2021-03-23 06:56:18.913  INFO 51384 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-23 06:56:19.046  INFO 51384 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-23 06:56:19.055  INFO 51384 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2021-03-23 06:56:19.270  INFO 51384 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-23 06:56:19.313  INFO 51384 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-03-23 06:56:19.500  INFO 51384 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-23 06:56:19.702  INFO 51384 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-03-23 06:56:20.496  INFO 51384 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-23 06:56:20.506  INFO 51384 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-23 06:56:20.547  INFO 51384 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-23 06:56:21.027  INFO 51384 --- [restartedMain] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2021-03-23 06:56:21.160  WARN 51384 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-23 06:56:21.260  INFO 51384 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-23 06:56:21.449  INFO 51384 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8585 (http) with context path '/User'
+2021-03-23 06:56:21.460  INFO 51384 --- [restartedMain] com.nt.Application                       : Started Application in 5.26 seconds (JVM running for 7.118)
+2021-03-23 06:56:44.779  INFO 51384 --- [http-nio-8585-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/User]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-23 06:56:44.780  INFO 51384 --- [http-nio-8585-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-23 06:56:44.781  INFO 51384 --- [http-nio-8585-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-03-23 06:57:00.858  INFO 51384 --- [http-nio-8585-exec-7] com.nt.controller.UserController         : *** Registration Form Loaded Successfully *** 
+2021-03-23 06:57:49.943  INFO 51384 --- [http-nio-8585-exec-4] com.nt.controller.UserController         : *** User Regisration Completed Successfully ***
+2021-03-23 06:57:52.448  INFO 51384 --- [http-nio-8585-exec-5] com.nt.controller.UserController         : *** Registration Form Loaded Successfully *** 
+2021-03-23 06:59:03.334  INFO 51384 --- [http-nio-8585-exec-3] c.nt.controller.UnlockAccountController  : *** UnlockAccForm Loaded Successfully ***
+2021-03-23 06:59:53.307  INFO 51384 --- [http-nio-8585-exec-2] c.nt.controller.UnlockAccountController  : *** User Account Unlocked Form Loaded ***
+2021-03-23 07:00:03.790 ERROR 51384 --- [http-nio-8585-exec-7] com.nt.controller.UserController         : *** User Email/Password is WRONG ***
+2021-03-23 07:00:14.092 ERROR 51384 --- [http-nio-8585-exec-9] com.nt.controller.UserController         : *** User Email/Password is WRONG ***
+2021-03-23 07:08:30.485  INFO 51384 --- [RMI TCP Connection(14)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-03-23 07:08:30.528  INFO 51384 --- [RMI TCP Connection(14)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-23 07:08:30.529  INFO 51384 --- [RMI TCP Connection(14)-127.0.0.1] org.apache.tiles.access.TilesAccess      : Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2021-03-23 07:08:30.530  INFO 51384 --- [RMI TCP Connection(14)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-23 07:08:30.744  WARN 51384 --- [RMI TCP Connection(14)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-03-23 07:08:30.745  INFO 51384 --- [RMI TCP Connection(14)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-03-23 07:08:30.796  INFO 51384 --- [RMI TCP Connection(14)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-03-23 07:12:48.986  INFO 43860 --- [restartedMain] com.nt.Application                       : Starting Application using Java 14.0.2 on SARATE with PID 43860 (F:\WorkSpaces\Ashok\SpringBoot\04-User_Management-App_H2_DB\target\classes started by sarat in F:\WorkSpaces\Ashok\SpringBoot\04-User_Management-App_H2_DB)
+2021-03-23 07:12:48.988  INFO 43860 --- [restartedMain] com.nt.Application                       : No active profile set, falling back to default profiles: default
+2021-03-23 07:12:49.039  INFO 43860 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-23 07:12:49.039  INFO 43860 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-23 07:12:49.840  INFO 43860 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-23 07:12:49.900  INFO 43860 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 4 JPA repository interfaces.
+2021-03-23 07:12:50.429  INFO 43860 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8585 (http)
+2021-03-23 07:12:50.437  INFO 43860 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-23 07:12:50.437  INFO 43860 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-23 07:12:50.682  INFO 43860 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-03-23 07:12:50.689  INFO 43860 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/User]   : Initializing Spring embedded WebApplicationContext
+2021-03-23 07:12:50.689  INFO 43860 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1649 ms
+2021-03-23 07:12:50.721  INFO 43860 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-23 07:12:50.827  INFO 43860 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-23 07:12:50.832  INFO 43860 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2021-03-23 07:12:50.975  INFO 43860 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-23 07:12:51.025  INFO 43860 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-03-23 07:12:51.140  INFO 43860 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-23 07:12:51.237  INFO 43860 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-03-23 07:12:51.715  INFO 43860 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-23 07:12:51.721  INFO 43860 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-23 07:12:51.745  INFO 43860 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-23 07:12:52.164  INFO 43860 --- [restartedMain] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2021-03-23 07:12:52.196  WARN 43860 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-23 07:12:52.286  INFO 43860 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-23 07:12:52.473  INFO 43860 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8585 (http) with context path '/User'
+2021-03-23 07:12:52.481  INFO 43860 --- [restartedMain] com.nt.Application                       : Started Application in 3.834 seconds (JVM running for 4.766)
+2021-03-23 07:13:05.804  INFO 43860 --- [http-nio-8585-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/User]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-23 07:13:05.805  INFO 43860 --- [http-nio-8585-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-23 07:13:05.807  INFO 43860 --- [http-nio-8585-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-03-23 07:13:12.435  INFO 43860 --- [http-nio-8585-exec-4] com.nt.controller.UserController         : *** Registration Form Loaded Successfully *** 
+2021-03-23 07:13:37.365  INFO 43860 --- [http-nio-8585-exec-1] com.nt.controller.UserController         : *** User Regisration Completed Successfully ***
+2021-03-23 07:14:25.912  INFO 43860 --- [http-nio-8585-exec-1] c.nt.controller.UnlockAccountController  : *** UnlockAccForm Loaded Successfully ***
+2021-03-23 07:14:47.558  INFO 43860 --- [http-nio-8585-exec-2] c.nt.controller.UnlockAccountController  : *** User Account Unlocked Form Loaded ***
+2021-03-23 07:15:25.067  WARN 43860 --- [http-nio-8585-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'email' is not present]
+2021-03-23 07:26:33.151  INFO 43860 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-23 07:26:33.152  INFO 43860 --- [Thread-5] org.apache.tiles.access.TilesAccess      : Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2021-03-23 07:26:33.153  INFO 43860 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-23 07:26:33.359  WARN 43860 --- [Thread-5] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-03-23 07:26:33.360  INFO 43860 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-03-23 07:26:33.364  INFO 43860 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-03-23 07:26:33.497  INFO 43860 --- [restartedMain] com.nt.Application                       : Starting Application using Java 14.0.2 on SARATE with PID 43860 (F:\WorkSpaces\Ashok\SpringBoot\04-User_Management-App_H2_DB\target\classes started by sarat in F:\WorkSpaces\Ashok\SpringBoot\04-User_Management-App_H2_DB)
+2021-03-23 07:26:33.497  INFO 43860 --- [restartedMain] com.nt.Application                       : No active profile set, falling back to default profiles: default
+2021-03-23 07:26:33.679  INFO 43860 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-23 07:26:33.696  INFO 43860 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 4 JPA repository interfaces.
+2021-03-23 07:26:33.798  INFO 43860 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8585 (http)
+2021-03-23 07:26:33.799  INFO 43860 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-23 07:26:33.799  INFO 43860 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-23 07:26:33.910  INFO 43860 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-03-23 07:26:33.913  INFO 43860 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/User]   : Initializing Spring embedded WebApplicationContext
+2021-03-23 07:26:33.914  INFO 43860 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 413 ms
+2021-03-23 07:26:33.932  INFO 43860 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-03-23 07:26:33.934  INFO 43860 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-03-23 07:26:33.934  INFO 43860 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2021-03-23 07:26:33.965  INFO 43860 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-23 07:26:33.971  INFO 43860 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-03-23 07:26:34.038  INFO 43860 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-23 07:26:34.039  INFO 43860 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-23 07:26:34.049  INFO 43860 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-23 07:26:34.166  INFO 43860 --- [restartedMain] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2021-03-23 07:26:34.179  WARN 43860 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-23 07:26:34.209  INFO 43860 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-23 07:26:34.273  INFO 43860 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8585 (http) with context path '/User'
+2021-03-23 07:26:34.277  INFO 43860 --- [restartedMain] com.nt.Application                       : Started Application in 0.843 seconds (JVM running for 826.562)
+2021-03-23 07:26:34.278  INFO 43860 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-03-23 07:26:34.390  INFO 43860 --- [RMI TCP Connection(17)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-03-23 07:26:34.421  INFO 43860 --- [RMI TCP Connection(17)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-23 07:26:34.421  INFO 43860 --- [RMI TCP Connection(17)-127.0.0.1] org.apache.tiles.access.TilesAccess      : Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2021-03-23 07:26:34.423  INFO 43860 --- [RMI TCP Connection(17)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-23 07:26:34.425  WARN 43860 --- [RMI TCP Connection(17)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-03-23 07:26:34.426  INFO 43860 --- [RMI TCP Connection(17)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2021-03-23 07:26:34.428  INFO 43860 --- [RMI TCP Connection(17)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2021-03-23 07:27:02.239  INFO 50740 --- [restartedMain] com.nt.Application                       : Starting Application using Java 14.0.2 on SARATE with PID 50740 (F:\WorkSpaces\Ashok\SpringBoot\04-User_Management-App_H2_DB\target\classes started by sarat in F:\WorkSpaces\Ashok\SpringBoot\04-User_Management-App_H2_DB)
+2021-03-23 07:27:02.242  INFO 50740 --- [restartedMain] com.nt.Application                       : No active profile set, falling back to default profiles: default
+2021-03-23 07:27:02.295  INFO 50740 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-23 07:27:02.296  INFO 50740 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-23 07:27:02.905  INFO 50740 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-23 07:27:02.961  INFO 50740 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 4 JPA repository interfaces.
+2021-03-23 07:27:03.415  INFO 50740 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8585 (http)
+2021-03-23 07:27:03.421  INFO 50740 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-23 07:27:03.422  INFO 50740 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-23 07:27:03.681  INFO 50740 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-03-23 07:27:03.688  INFO 50740 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/User]   : Initializing Spring embedded WebApplicationContext
+2021-03-23 07:27:03.688  INFO 50740 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1391 ms
+2021-03-23 07:27:03.723  INFO 50740 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-23 07:27:03.816  INFO 50740 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-23 07:27:03.820  INFO 50740 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2021-03-23 07:27:03.960  INFO 50740 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-23 07:27:03.998  INFO 50740 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-03-23 07:27:04.083  INFO 50740 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-23 07:27:04.172  INFO 50740 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-03-23 07:27:04.616  INFO 50740 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-23 07:27:04.627  INFO 50740 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-23 07:27:04.659  INFO 50740 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-23 07:27:05.048  INFO 50740 --- [restartedMain] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2021-03-23 07:27:05.094  WARN 50740 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-23 07:27:05.190  INFO 50740 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-23 07:27:05.395  INFO 50740 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8585 (http) with context path '/User'
+2021-03-23 07:27:05.407  INFO 50740 --- [restartedMain] com.nt.Application                       : Started Application in 3.578 seconds (JVM running for 4.336)
+2021-03-23 07:27:27.419  INFO 50740 --- [http-nio-8585-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/User]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-23 07:27:27.420  INFO 50740 --- [http-nio-8585-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-23 07:27:27.422  INFO 50740 --- [http-nio-8585-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-03-23 07:27:31.300  INFO 50740 --- [http-nio-8585-exec-3] com.nt.controller.UserController         : *** Registration Form Loaded Successfully *** 
+2021-03-23 07:28:00.766  INFO 50740 --- [http-nio-8585-exec-10] com.nt.controller.UserController         : *** User Regisration Completed Successfully ***
+2021-03-23 07:28:03.439  INFO 50740 --- [http-nio-8585-exec-1] com.nt.controller.UserController         : *** Registration Form Loaded Successfully *** 
+2021-03-23 07:28:15.330  INFO 50740 --- [http-nio-8585-exec-6] c.nt.controller.UnlockAccountController  : *** UnlockAccForm Loaded Successfully ***
+2021-03-23 07:28:46.789  INFO 50740 --- [http-nio-8585-exec-7] c.nt.controller.UnlockAccountController  : *** User Account Unlocked Form Loaded ***
+2021-03-23 07:29:10.599  WARN 50740 --- [http-nio-8585-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'userEmail' is not present]
+2021-03-23 07:29:49.634  INFO 50740 --- [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-03-23 07:29:49.671  INFO 50740 --- [RMI TCP Connection(5)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-23 07:29:49.671  INFO 50740 --- [RMI TCP Connection(5)-127.0.0.1] org.apache.tiles.access.TilesAccess      : Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2021-03-23 07:29:49.673  INFO 50740 --- [RMI TCP Connection(5)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-23 07:29:49.886  WARN 50740 --- [RMI TCP Connection(5)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-03-23 07:29:49.888  INFO 50740 --- [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-03-23 07:29:49.940  INFO 50740 --- [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
