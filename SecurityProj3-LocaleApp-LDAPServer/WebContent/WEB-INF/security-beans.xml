@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jee="http://www.springframework.org/schema/jee"
+	xmlns:security="http://www.springframework.org/schema/security"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
+		http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-4.3.xsd
+		http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-5.4.xsd">
+
+
+<security:http use-expressions="true">
+   <security:intercept-url pattern="/welcome" access="permitAll"/>
+   <security:intercept-url pattern="/countries" access="hasAnyRole('ROLE_ADMIN','ROLE_MANAGER')" />
+   <!--enable basic login  -->
+   <!--  <security:http-basic/> -->
+    <!--enable form page  -->
+   <security:form-login/>
+   
+   <!--To specify custome error page for 403 error(for authorization failure)  -->
+   <security:access-denied-handler error-page="/access_denied.jsp"/>
+   <security:logout logout-success-url="/logout.jsp"/>
+   <security:remember-me/>
+   
+   <security:session-management>
+      <security:concurrency-control error-if-maximum-exceeded="true" max-sessions="2"/>
+   </security:session-management>
+</security:http>
+
+
+  <security:authentication-manager>
+       <!-- for authentication and authorization -->
+          <security:ldap-authentication-provider
+			user-search-filter="(uid={0})" user-search-base="ou=users"
+			group-search-filter="(uniqueMember={0})" group-search-base="ou=roles"
+			group-role-attribute="cn" role-prefix="ROLE_">
+       </security:ldap-authentication-provider>
+  </security:authentication-manager> 
+  
+    <!-- for connecting to LDAP server -->
+   <security:ldap-server id="ldapServer" url="ldap://localhost:10389/o=nit"
+		manager-dn="uid=admin,ou=system" manager-password="secret" />
+		
+	<security:ldap-user-service server-ref="ldapServer" user-search-filter="(uid={0})" />
+ 
+
+ 
+ 
+</beans>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<h1 class="text-primary text-center">Employees Info Report</h1>
+<head>
+  <link th:href="@{https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css}"  rel="stylesheet">
+</head>
+<div class="container">
+   <div th:if = "${empsInfo!=null}">
+   <table   class="table  table-hover table-bordered  table-stripped table-sm">
+      <tr  class="text-primary">
+      <th>SerialNo</th>
+      <th>EmpNo</th>
+      <th>EmpName</th>
+      <th>Job</th>
+      <th>Salary</th>
+      <th>GrossSal</th>
+      <th>NetSal</th>
+      <th>DeptNo</th>
+      <th>operation</th>
+      </tr>
+      
+         <tr th:each ="dto:${empsInfo}" class="bg-success">
+         <td th:text = "${dto.serialNo}"/>
+         <td th:text = "${dto.empNo}"/>
+         <td th:text = "${dto.ename}"/>
+         <td th:text = "${dto.job}"/>
+         <td th:text = "${dto.sal}"/>
+         <td th:text = "${dto.grossSal}"/>
+         <td th:text ="${dto.netSal}"/>
+         <td th:text = "${dto.deptno}"/>
+         <td><a th:href="@{/employee/editEmp.htm(eno=${dto.empNo})}"><img th:src="@{/images/edit1.png}" width="50" height="50"/></a>
+         <a th:href="@{/employee/deleteEmp.htm(eno=${dto.empNo})}" th:onclick="return confirm('Are you sure to delete (${dto.ename}) ?')"><img th:src="@{/images/delete1.jpg}" width="50" height="50"/></a></td>
+         </tr>                                                                                 
+     
+   </table>  
+   </div> 
+  
+  <span th:unless = "${empsInfo != null}"><h1 style="color:red;text-align:center">Record Not Found</h1></span>
+  
+<br><br>
+
+     <span th:if="${resultMsg!=null}"><marquee direction="right"><h1 class="text-primary font-weight-bold" th:text="${resultMsg}"/></marquee></span>    
+          
+<a th:href="@{/employee/saveEmp.htm}"><img  th:src="@{/images/add1.jpg}" width="100" height="100"/></a>
+  &nbsp;&nbsp;<a th:href="@{/employee/welcome.htm}"><img  th:src="@{/images/home.gif}" width="100" height="100"/></a>
+&nbsp;&nbsp;<a href="javaScript:doPrint()"><img  th:src="@{/images/print1.jpg}" width="100" height="100"/></a>
+
+</div>
+<script language="JavaScript">
+      function doPrint(){
+    	  frames.focus();
+    	  frames.print();
+      }
+ </script>
+ </html>

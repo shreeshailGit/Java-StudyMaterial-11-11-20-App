@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+
+<!--Handler Mapping  -->
+  <bean class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+   <property name="mappings">
+    <props>
+      <prop key="welcome.htm">shc</prop>
+      <prop key="wish.htm">wmc</prop>
+      <prop key="country.htm">gac</prop>
+    </props>
+   </property>
+  </bean>
+  
+
+<!--Handler/controller class  -->
+   <bean id="shc" class="com.nt.controller.ShowHomeController"/>
+   <bean id="wmc" class="com.nt.controller.WishMessageController">
+      <constructor-arg ref="wishService"/>
+   </bean>
+   <bean id="gac" class="com.nt.controller.GetAllCountriesController"/>
+   
+<!--configure ViewReslover  -->
+   <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+      <property name="prefix" value="/WEB-INF/pages/"/>
+      <property name="suffix" value=".jsp"/>
+   </bean>
+
+<!-- <bean class="org.springframework.web.servlet.view.UrlBasedViewResolver">
+      <property name="viewClass" value="org.springframework.web.servlet.view.InternalResourceView"/>
+      <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
+      <property name="prefix" value="/WEB-INF/pages/"/>
+      <property name="suffix" value=".jsp"/>
+   </bean>    -->
+</beans>
